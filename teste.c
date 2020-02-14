@@ -3,14 +3,13 @@
 
 int main(){
 
-    int num, mens;
+    int num;
 
     printf("Digite a sua idade:\n");
     scanf("%d", &num);
 
-    mens = num - 1;
-
-    printf("\nSua idade diminuída por 1 é: %d!\n", mens);
+    printf("\nSua idade diminuída por 1 é: %d!\n", (num - 1));
+    printf("\nSua idade original é: %d!\n, num);
 
     return 0;
 }
